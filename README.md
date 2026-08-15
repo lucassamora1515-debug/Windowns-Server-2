@@ -1,12 +1,16 @@
 # Windowns-Server-2
-*help*
+**help**
 serve para mostrar uma lista de comandos disponíveis.
+
 *help dir*
 mostra ajuda específica nos comandos 
+
 *cls*
 Limpa a tela do CMD
+
 *echo*
 exibe uma tela de mensagem 
+
 *echo off* 
 oculta a exibição dos comandos durante a execução de um script 
 *echo on*
