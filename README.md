@@ -1,64 +1,135 @@
-# Windowns-Server-2
-**help**
-serve para mostrar uma lista de comandos disponíveis.
+🖥️ Windows Server 2 — Comandos CMD
 
-*help dir*
-mostra ajuda específica nos comandos 
+📚 Comandos básicos
 
-*cls*
-Limpa a tela do CMD
+"help"
+Serve para mostrar uma lista de comandos disponíveis.
 
-*echo*
-exibe uma tela de mensagem 
+"help dir"
+Mostra ajuda específica sobre o comando "dir".
 
-*echo off* 
-oculta a exibição dos comandos durante a execução de um script 
-*echo on*
-aparecem as meensagens 
-*ver*
-mostra a versão do windows 
-*winver*
-abre uma janela com informações da versão do windows 
-*hostname*
-mostra o nome do computador/servidor
-*whoami*
-mostra qual usuário que está conectado
-*whoami /user*
-mostra o usuário e seu identificador de segurança 
-*date /t*
-mostra a data atual
-*time /t*
-mostra o horário atual
-*title Servidor Windows*
-alterar título da janela CMDS
-*color 0A*
-altera as cores do CMD
-*dokey*
-Permite recursos de edições de seus históricos de comandos 
-e as setas servem pra já adicionar os códigos já usados 
-*dokey /history*
-mostra os comandos já usados no CMD
-*shutdown /?*
-mostra a ajuda do comando de desligamento
-*shutdown /A*
-cancela os desligamentos pendentes 
-*tipe arquivo.txt*
-mostra o conteúdo de um arquivo no CMD
-*more*
-exibe resultados grandes página por páginas 
-*find "windowns"arquivo.txt*
-procura uma palavra dentro de um arquivo
-*findstr "erro" log.txt*
-pesquisa textos usando recursos mais avançados
-*dir*
-lista arquivos e pastas
-*dir /w*
-exibe os arquivos em formato compacto
-*cd*
-mostra o diretário atual
-*rd PastaTeste, rd Pasta, rd Projetos*
-Remove uma pasta vazia 
-*ipconfig*
-mostra as principais informações de rede
-*ipconfig /all*
-mostra as informações completas do adaptadores de rede
+"cls"
+Limpa a tela do CMD.
+
+"echo"
+Exibe uma mensagem na tela.
+
+"echo off"
+Oculta a exibição dos comandos durante a execução de um script.
+
+"echo on"
+Ativa novamente a exibição dos comandos durante a execução.
+
+"ver"
+Mostra a versão do Windows.
+
+"winver"
+Abre uma janela com informações sobre a versão do Windows.
+
+"hostname"
+Mostra o nome do computador/servidor.
+
+"whoami"
+Mostra qual usuário está conectado.
+
+"whoami /user"
+Mostra o usuário e seu identificador de segurança (SID).
+
+"date /t"
+Mostra a data atual.
+
+"time /t"
+Mostra o horário atual.
+
+---
+
+🖥️ Personalização do CMD
+
+"title Servidor Windows"
+Altera o título da janela do CMD.
+
+"color 0A"
+Altera as cores do CMD.
+
+"doskey"
+Permite recursos de edição e gerenciamento do histórico de comandos.
+As setas do teclado podem ser usadas para acessar comandos já utilizados.
+
+"doskey /history"
+Mostra o histórico de comandos utilizados no CMD.
+
+---
+
+⚙️ Desligamento do sistema
+
+"shutdown /?"
+Mostra a ajuda do comando de desligamento.
+
+"shutdown /a"
+Cancela um desligamento pendente.
+
+---
+
+📄 Manipulação e pesquisa de arquivos
+
+"type arquivo.txt"
+Mostra o conteúdo de um arquivo diretamente no CMD.
+
+"more"
+Exibe resultados grandes página por página.
+
+"find "windows" arquivo.txt"
+Procura uma palavra ou texto dentro de um arquivo.
+
+"findstr "erro" log.txt"
+Pesquisa textos utilizando recursos mais avançados.
+
+---
+
+📁 Arquivos e diretórios
+
+"dir"
+Lista arquivos e pastas do diretório atual.
+
+"dir /w"
+Exibe os arquivos em formato compacto.
+
+"cd"
+Mostra o diretório atual.
+
+"rd PastaTeste"
+Remove uma pasta vazia.
+
+"mkdir Projeto"
+Cria um novo diretório/pasta.
+
+---
+
+🌐 Comandos de rede
+
+"ipconfig"
+Mostra as principais informações de rede.
+
+"ipconfig /all"
+Mostra informações completas dos adaptadores de rede.
+
+"ipconfig /flushdns"
+Limpa o cache DNS do computador.
+
+"ping"
+Testa a comunicação com outro equipamento ou endereço de rede.
+
+"tracert"
+Mostra o caminho que os pacotes percorrem até um destino.
+
+"getmac"
+Mostra o endereço MAC das interfaces de rede.
+
+"route print"
+Mostra a tabela de roteamento do servidor.
+
+---
+
+💻 Windows Server — Prática de CMD
+
+«📌 Objetivo: conhecer e utilizar os principais comandos do Prompt de Comando (CMD) no Windows Server.»
